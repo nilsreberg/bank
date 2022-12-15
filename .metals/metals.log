@@ -1,0 +1,894 @@
+2022.12.13 15:28:46 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\nilsr\pgk\bank\.metals\lsp.trace.json or C:\Users\nilsr\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.13 15:28:46 INFO  logging to file C:\Users\nilsr\pgk\bank\.metals\metals.log
+2022.12.13 15:28:46 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\nilsr\pgk\bank' for client Visual Studio Code 1.74.0.
+2022.12.13 15:28:47 INFO  time: initialize in 0.87s
+2022.12.13 15:28:48 WARN  Build server is not auto-connectable.
+2022.12.13 15:28:48 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 15:28:50 INFO  no build target found for C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.13 15:28:50 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.13 15:28:51 INFO  time: code lens generation in 2.68s
+2022.12.13 15:29:15 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Customer.scala
+2022.12.13 15:32:00 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.13 15:32:12 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.13 15:32:13 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 15:32:18 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.13 15:33:21 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+Dec 13, 2022 3:39:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 516
+2022.12.13 15:40:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.13 15:40:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.13 15:40:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.13 15:40:43 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Customer.scala
+2022.12.13 15:40:45 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 15:46:37 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+Dec 13, 2022 3:46:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 589
+2022.12.13 15:48:20 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 13, 2022 3:48:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 651
+2022.12.13 15:48:38 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.13 15:48:52 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 15:57:02 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 15:57:23 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 16:00:32 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 13, 2022 4:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Dec 13, 2022 4:22:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2022.12.13 16:26:02 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.13 18:07:00 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 18:07:00 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 18:08:03 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 18:08:07 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 18:08:07 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 18:08:07 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 18:08:07 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 13, 2022 6:09:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2793
+2022.12.13 18:13:31 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.13 18:13:38 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.13 18:13:39 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 13, 2022 6:13:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2022.12.13 18:14:50 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.13 18:14:51 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.13 18:15:19 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.13 18:15:20 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.13 18:18:56 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.13 18:19:19 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.13 18:19:57 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 13, 2022 6:20:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3567
+Dec 13, 2022 6:20:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2499)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$1(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$4(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1576)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1574)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1630)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1627)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1636)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1541)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+2022.12.13 18:27:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 13, 2022 6:27:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4206
+2022.12.13 18:29:49 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 18:32:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 18:32:19 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 13, 2022 6:33:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Dec 13, 2022 7:36:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Dec 13, 2022 7:43:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Dec 13, 2022 7:54:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5222
+Dec 13, 2022 7:55:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Dec 13, 2022 7:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2022.12.13 19:57:09 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.13 19:57:11 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+Dec 13, 2022 7:58:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2022.12.13 19:59:17 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.13 19:59:17 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+Dec 13, 2022 7:59:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5366
+2022.12.13 20:00:00 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.13 20:02:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 20:03:46 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 20:04:30 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 20:05:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.13 20:06:22 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+Dec 13, 2022 8:08:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5881
+Dec 13, 2022 8:14:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6385
+Dec 13, 2022 8:14:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6404
+Dec 13, 2022 9:08:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7381
+2022.12.13 21:09:20 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.13 21:19:58 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+Dec 13, 2022 9:21:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7658
+Dec 13, 2022 9:22:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7864
+Dec 13, 2022 9:28:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8374
+2022.12.13 21:35:27 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\time\Date.scala
+Dec 13, 2022 9:36:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9647
+Dec 13, 2022 9:40:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10102
+Dec 13, 2022 9:40:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10123
+Dec 13, 2022 9:40:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10129
+2022.12.13 21:41:53 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+Dec 13, 2022 9:58:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10596
+Dec 13, 2022 10:00:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10874
+Dec 13, 2022 10:01:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11202
+Dec 13, 2022 10:01:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11243
+2022.12.13 22:03:14 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.13 22:03:16 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+Dec 14, 2022 12:40:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11581
+2022.12.14 00:41:34 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 00:48:51 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+Dec 14, 2022 12:59:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12301
+2022.12.14 01:03:56 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:04:34 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.14 01:20:52 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 01:21:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 01:21:38 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 01:21:55 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:23:10 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+Dec 14, 2022 1:23:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2499)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$1(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$4(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1630)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1627)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1636)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1541)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+2022.12.14 01:24:36 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:24:54 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:25:10 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:25:51 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:26:12 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:26:13 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:26:49 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:27:02 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+Dec 14, 2022 1:27:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2499)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.isForComprehensionOwner$1(PcDocumentHighlightProvider.scala:163)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.collectNames$1(PcDocumentHighlightProvider.scala:178)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.$anonfun$4(PcDocumentHighlightProvider.scala:275)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1554)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1568)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1623)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1630)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1627)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1537)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1636)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1541)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1669)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider$.highlights(PcDocumentHighlightProvider.scala:276)
+
+2022.12.14 01:27:23 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:31:57 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 01:33:15 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 01:33:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 01:37:11 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+Dec 14, 2022 1:37:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14448
+Dec 14, 2022 1:38:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14506
+Dec 14, 2022 1:38:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14507
+2022.12.14 01:38:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:40:25 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:40:29 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:40:50 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:41:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:41:12 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:44:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:45:40 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:46:20 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:47:55 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+Dec 14, 2022 1:48:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15120
+Dec 14, 2022 1:49:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15261
+2022.12.14 01:49:02 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 01:50:01 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 01:50:26 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:51:13 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+Dec 14, 2022 1:52:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15570
+2022.12.14 01:52:16 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:54:00 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 01:54:28 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 01:54:47 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 01:55:45 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 01:56:16 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:57:01 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 01:57:04 INFO  shutting down Metals
+2022.12.14 01:57:04 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2022.12.14 13:04:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\nilsr\pgk\bank\.metals\lsp.trace.json or C:\Users\nilsr\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.14 13:04:39 INFO  logging to file C:\Users\nilsr\pgk\bank\.metals\metals.log
+2022.12.14 13:04:39 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\nilsr\pgk\bank' for client Visual Studio Code 1.74.0.
+2022.12.14 13:04:40 INFO  time: initialize in 0.98s
+2022.12.14 13:04:41 WARN  Build server is not auto-connectable.
+2022.12.14 13:04:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 13:04:42 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:04:43 INFO  no build target found for C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.14 13:04:45 INFO  time: code lens generation in 3.84s
+2022.12.14 13:04:45 INFO  time: code lens generation in 2.9s
+2022.12.14 13:04:52 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.14 13:05:30 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 13:06:23 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.14 13:06:42 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.14 13:07:04 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\time\Date.scala
+2022.12.14 13:07:43 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.14 13:07:56 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Customer.scala
+2022.12.14 13:09:33 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+Dec 14, 2022 1:11:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 190
+2022.12.14 13:13:34 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.14 13:13:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.14 13:13:46 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.14 13:13:51 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.14 13:14:36 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\time\Date.scala
+Dec 14, 2022 1:14:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 318
+Dec 14, 2022 1:20:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 548
+2022.12.14 13:21:18 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:22:18 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:22:19 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:22:36 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:22:44 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:22:45 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:25:56 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 14, 2022 1:26:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 906
+2022.12.14 13:26:34 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:27:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 13:27:12 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 13:28:48 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:28:52 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 13:30:51 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 13:31:01 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:32:47 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:32:51 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 14, 2022 1:33:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1517
+2022.12.14 13:42:32 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:45:12 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:45:33 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:55:16 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 13:56:31 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:00:24 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:02:35 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:02:53 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:02:59 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:03:07 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:03:46 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 14, 2022 2:04:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2724
+2022.12.14 14:05:02 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:06:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:07:36 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:08:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:10:54 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 14:20:29 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 14:20:47 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 14:23:04 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+Dec 14, 2022 2:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4274
+Dec 14, 2022 3:22:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "untitled:Untitled-1"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2022.12.14 15:22:40 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:22:40 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:22:55 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 15:23:16 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 15:24:43 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:24:44 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:36:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:36:10 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:36:20 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:36:20 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:36:20 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:36:20 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:38:38 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:39:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:44:42 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Logger.scala
+2022.12.14 15:44:55 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 15:49:04 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 15:55:39 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 15:58:02 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 15:58:22 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 15:58:31 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 15:58:37 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 15:59:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:01:05 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:01:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:01:54 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:02:19 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:02:31 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:02:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:02:54 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:03:26 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:04:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:07:04 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:07:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 14, 2022 4:11:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-local-history:/c%3A/Users/nilsr/pgk/bank/src/main/scala/bank/Bank.scala?%7B%22location%22%3A%22file%3A%2F%2F%2Fc%3A%2FUsers%2Fnilsr%2FAppData%2FRoaming%2FCode%2FUser%2FHistory%2F-3ce1f900%2FExj7.scala%22%2C%22associatedResource%22%3A%22file%3A%2F%2F%2Fc%3A%2FUsers%2Fnilsr%2Fpgk%2Fbank%2Fsrc%2Fmain%2Fscala%2Fbank%2FBank.scala%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "vscode-local-history" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+Dec 14, 2022 4:11:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6917
+Dec 14, 2022 4:18:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6998
+Dec 14, 2022 4:38:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7259
+2022.12.14 16:42:01 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:42:52 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:43:44 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 16:44:35 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 16:48:57 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.14 16:49:34 INFO  shutting down Metals
+2022.12.14 16:49:34 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2022.12.14 17:02:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\nilsr\pgk\bank\.metals\lsp.trace.json or C:\Users\nilsr\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.14 17:02:21 INFO  logging to file C:\Users\nilsr\pgk\bank\.metals\metals.log
+2022.12.14 17:02:21 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\nilsr\pgk\bank' for client Visual Studio Code 1.74.0.
+2022.12.14 17:02:22 INFO  time: initialize in 0.95s
+2022.12.14 17:02:23 WARN  Build server is not auto-connectable.
+2022.12.14 17:02:23 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 17:02:23 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.14 17:02:23 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.14 17:02:23 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.14 17:02:25 INFO  no build target found for C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.14 17:02:27 INFO  time: code lens generation in 3.25s
+2022.12.14 17:06:43 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 17:07:47 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 17:08:52 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 17:10:17 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.14 17:16:40 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.14 17:16:42 INFO  shutting down Metals
+2022.12.14 17:16:42 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1589)
+
+2022.12.15 10:42:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\nilsr\pgk\bank\.metals\lsp.trace.json or C:\Users\nilsr\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.15 10:42:59 INFO  logging to file C:\Users\nilsr\pgk\bank\.metals\metals.log
+2022.12.15 10:42:59 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\nilsr\pgk\bank' for client Visual Studio Code 1.74.0.
+2022.12.15 10:43:01 INFO  time: initialize in 1.59s
+2022.12.15 10:43:02 WARN  Build server is not auto-connectable.
+2022.12.15 10:43:02 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 10:43:05 INFO  no build target found for C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.15 10:43:08 INFO  time: code lens generation in 5.21s
+Dec 15, 2022 10:44:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 284
+Dec 15, 2022 10:44:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 340
+2022.12.15 10:44:52 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 10:44:53 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 10:44:54 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 10:47:33 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\time\Date.scala
+2022.12.15 10:47:34 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\HistoryEntry.scala
+2022.12.15 10:47:34 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala
+2022.12.15 10:48:41 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala
+2022.12.15 10:48:43 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankEvent.scala
+2022.12.15 10:52:31 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+Dec 15, 2022 11:10:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1384
+Dec 15, 2022 11:10:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1416
+Dec 15, 2022 11:19:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1919
+2022.12.15 11:19:12 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 11:27:18 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 11:29:36 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 11:29:50 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 11:30:30 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 11:30:47 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 11:32:06 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Customer.scala
+Dec 15, 2022 11:32:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2191
+Dec 15, 2022 12:28:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.12.15 12:28:59 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\Bank.scala
+2022.12.15 12:29:04 WARN  no build target for: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankAccount.scala

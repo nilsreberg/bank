@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(581df743-399b-474a-9370-62a3b13494ca), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\nilsr\pgk\bank\target\scala-3.1.2\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\Users\nilsr\pgk\bank\src\main\scala\bank\BankApplication.scala:45:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m        println(Date.now())[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                Not found: Date[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Dec 14, 2022 2:20:33 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
